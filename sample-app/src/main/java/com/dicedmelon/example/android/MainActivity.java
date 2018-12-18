@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     NumberProvider numberProvider = new NumberProvider();
     viewDataBinding.setNumber(numberProvider.provideNumber());
+    // Add a comment
   }
 }
